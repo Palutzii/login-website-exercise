@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="content-center">
+        <div class="header-wrapper">
+          <header>
+            <h1>Inloggning</h1>
+          </header>
+        </div>
+
+        <div class="main-content">
+          <main class="main">
+            <div class="login-inputs">
+              <div class="input-wrapper">
+                <i class="fa-solid fa-user"></i>
+                <input
+                  class="text-input"
+                  type="text"
+                  placeholder="Användarnamn"
+                  required
+                />
+              </div>
+              <div class="input-wrapper">
+                <i class="fa-solid fa-key"></i>
+                <input
+                  class="text-input"
+                  type="text"
+                  placeholder="Lösenord"
+                  required
+                />
+              </div>
+
+              <div class="input-wrapper flexbox">
+                <div>
+                  <label for="rembember-me">
+                    <input
+                      type="checkbox"
+                      id="rembember-me"
+                      name="remember-me"
+                    />
+                    Kom ihåg mig
+                  </label>
+                </div>
+                <a class="forgot-password" href="forgot.index"
+                  >Glömt lösenord</a
+                >
+              </div>
+
+              <div class="input-wrapper">
+                <a href="myPage.html"
+                  ><input class="input-button" type="button" value="Logga in"
+                /></a>
+              </div>
+            </div>
+
+            <div class="one-word-wrapper"><p class="eller">eller</p></div>
+            <div class="social-media">
+              <a href="googleLogin.html"
+                ><input
+                  class="input-button"
+                  type="button"
+                  value="Logga in med Google-konto"
+              /></a>
+
+              <a href="facebookLogin.html"
+                ><input
+                  class="input-button"
+                  type="button"
+                  value="Logga in med Facebook"
+              /></a>
+            </div>
+          </main>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>Serve inc Fake AB</p>
+        <p>08-99 999 35 71</p>
+        <p>Inteenriktiggata 99, 13 337, Hårstorp</p>
+      </footer>
+    </div>
+  </body>
+</html>
